@@ -24,3 +24,5 @@ fields:
     maxSize: 250
   label: footerimage
   description: The footer image of the blog
+pages:
+- exampleSite/content/posts/forestry-io.md
