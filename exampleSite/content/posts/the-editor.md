@@ -4,4 +4,4 @@ title: The Editor
 date: 2019-05-13
 ---
 
-{{< post >}}
+This is a welcome post.

@@ -4,4 +4,4 @@ title: Test Post
 date: 2019-05-14
 ---
 
-{{< post >}}
+This is a test post.

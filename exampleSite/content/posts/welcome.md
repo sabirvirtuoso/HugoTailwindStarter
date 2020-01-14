@@ -4,4 +4,4 @@ title: Welcome
 date: 2019-05-13
 ---
 
-{{< post >}}
+Welcome to hugo tailwind starter.
