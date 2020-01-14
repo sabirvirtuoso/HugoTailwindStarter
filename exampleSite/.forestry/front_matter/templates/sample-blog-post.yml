@@ -11,3 +11,16 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: primary_image
+  type: file
+  config:
+    maxSize: 250
+  label: banner
+  description: The banner image of the blog
+  hidden: false
+- name: footerimage
+  type: file
+  config:
+    maxSize: 250
+  label: footerimage
+  description: The footer image of the blog
