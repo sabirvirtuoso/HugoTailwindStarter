@@ -1,0 +1,9 @@
+{{ $slug := urlize .Page.Title}}
+{{ $url := printf "%s%s%s" "http://localhost:2368/ghost/api/v3/content/posts/slug/" $slug "?key=239978c1f29003ebfad6fc7df1" }}
+{{ $resource := getJSON $url }}
+{{ range $resourceMap := $resource }}
+    {{ range $post := $resourceMap }}
+        {{ $content := index $post "html" }}
+        {{ safeHTML $content }}
+    {{ end }}
+{{ end }}
