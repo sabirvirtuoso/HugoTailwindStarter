@@ -60,7 +60,7 @@ typings/
 .env
 
 # IDE
-.idea/*
+../../../.idea/hugo-theme-tailwindcss-starter.iml
 *.iml
 *.sublime-*
 
